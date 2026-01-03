@@ -78,7 +78,7 @@ graph LR
     end
 
     subgraph "Backend"
-        LA[Laravel 11/12]
+        LA[Laravel 12]
         SP[Spatie Package Tools]
     end
 
