@@ -16,7 +16,7 @@ A powerful email inbox plugin for [Filament 4](https://filamentphp.com) with [Re
 - 👤 **Contact Enrichment** - Extract contact info from emails via AI
 - 📝 **Reply Snippets** - Pre-defined templates for quick responses
 - 🔄 **Auto Sync** - Scheduled syncing via artisan command
-- 🌍 **Multilingual** - English and Swedish included
+- 🌍 **Multilingual** - 9 languages included (EN, SV, DE, FR, ES, NB, FI, DA, PT)
 
 ## Architecture Overview
 
@@ -570,7 +570,21 @@ flowchart TD
 
 ## Translations
 
-Resonator includes English and Swedish translations. To add more languages:
+Resonator includes translations for the following languages:
+
+| Language | Code | File |
+|----------|------|------|
+| English | `en` | `resources/lang/en/resonator.php` |
+| Swedish | `sv` | `resources/lang/sv/resonator.php` |
+| German | `de` | `resources/lang/de/resonator.php` |
+| French | `fr` | `resources/lang/fr/resonator.php` |
+| Spanish | `es` | `resources/lang/es/resonator.php` |
+| Norwegian | `nb` | `resources/lang/nb/resonator.php` |
+| Finnish | `fi` | `resources/lang/fi/resonator.php` |
+| Danish | `da` | `resources/lang/da/resonator.php` |
+| Portuguese | `pt` | `resources/lang/pt/resonator.php` |
+
+To add more languages:
 
 ```bash
 php artisan vendor:publish --tag="resonator-translations"
